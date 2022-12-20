@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" >
+    <link rel="stylesheet" type="text/css" href="css/stylos.css">
+
+    <title>Linsafarma</title>
+</head>
+<body id="todo">
+    <header>
+        <div class="container" >
+            <div class="logo-menu">
+                <!-- MENU hamburguesa movil ABRIR -->
+                <ion-icon name="menu-outline" id="menu-logo"></ion-icon>
+                <img  src="img/logo.svg" alt="farmacia">
+                <ion-icon class="logo-facebook" name="logo-facebook" style="font-size: 28px;"></ion-icon>
+            </div>
+
+            <div class="buscador-desktop">
+                <input id="buscar" type="text" placeholder="Buscar por nombre y marca"  ><ion-icon class="lupa" name="search-outline" style="font-size: 25px;" ></ion-icon>
+            </div>
+            
+            <div class="direccion-desktop">
+                <div class="dentro">
+                    <ion-icon name="location-outline" class="ico-direcc"></ion-icon>
+                    <p id="text" > Av. Universitaria #. 7007 Urb. Santa Luzmila - Comas - Lima - Lima</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- MOBIL DIRECCION Y BUSCADOR con logo ARRIBA -->
+    <div class="buscador-direccion">
+        <div class="container">
+            <div class="buscador-mobil">
+                <input id="buscador" type="text" placeholder="Buscar por nombre y marca" ><ion-icon class="located-icon" name="search-outline" style="font-size: 25px;padding: 11px; padding-right: 12px ;background-color: white; border-radius: 0px 50px 50px 0px;"></ion-icon>
+            </div>
+            <div class="direccion-mobil">
+                <div class="conjunto-direccion">
+                    <ion-icon class="icono-lugar" name="location-outline"></ion-icon>
+                    <p id="text" > Av. Universitaria #. 7007 Urb. Santa Luzmila - Comas - Lima - Lima</p>
+                </div>
+                
+                <a href="" class="promociones-mobil">Promociones</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MENU hamburguesa mobil CERRAR X -->
+    <nav id="menu" class="active">
+        <div class="menu-mobil">
+            <ion-icon id="menu-logo-cerrar" name="close-outline"></ion-icon>
+            <img  src="img/logo.svg" alt="farmacia">
+        </div>
+            <ul>
+                <li class="text-category" ><ion-icon name="menu-outline" id="menu-categoria"></ion-icon>&nbsp; &nbsp;  Categorías  </li>
+                <!-- <li><a href="" id="category">Categoría</a></li> -->
+                <li><a href="" class="nosotros">Nosotros</a></li>
+                <li><a href="" class="productos">Productos</a></li>
+                <li><a href="" class="contactanos">Contáctanos</a></li>
+                <li><a href="" class="promociones">Promociones</a></li>
+            </ul>
+    </nav>
+
+
+
+
+
+    <!-- CATEGORYA hamburguesa ESCRITORIO CERRAR X -->
+    <nav id="menu3" class="active2">
+        <div class="menu-mobil">
+            <ion-icon id="menu3-logo-cerrar" name="close-outline"></ion-icon>
+            <img  src="img/logo.svg" alt="farmacia">
+        </div>
+            <div class="container category-space">
+                <ul>
+                    <li class="text-category" ><ion-icon name="menu-outline" id="menu3-categoria"></ion-icon>&nbsp; &nbsp;  Categorías  </li>
+                    <!-- <li><a href="" id="category">Categoría</a></li> -->
+                    <li><a href="" class="nosotros">Adultos</a></li>
+                    <li><a href="" class="productos">Belleza</a></li>
+                    <li><a href="" class="contactanos">Para Bebés</a></li>
+                    <li><a href="" class="contactanos">Deportistas</a></li>
+                    <!-- <li><a href="" class="promociones">Promociones</a></li> -->
+                </ul>
+            </div>
+    </nav>
+
+
+
+
+
+    <main>
+        <div class="flechas-slider" style="max-width: 1800px;">
+            <span id="izquierda3" class="izquierda"><ion-icon class="izq" name="arrow-back"></ion-icon></span>
+            <span id="derecha3" class="derecha"><ion-icon class="dere" name="arrow-forward"></ion-icon></span>
+        </div>
+        
+        <section class="container-banner" style="max-width: 1800px; ">
+            
+            
+            <img src="" id="imagenes" alt="">
+        </section>
+
+
+        <!-- PARA TU CUIDADO -->
+        <section class="content-section">
+            <h1 class="titulo">Lo que necesitas para tu cuidado</h1>
+            <div class="arrows">
+                <span id="izquierda" class="izquierda"><ion-icon class="izq" name="arrow-back"></ion-icon></span>
+                <span id="derecha" class="derecha"><ion-icon class="dere" name="arrow-forward"></ion-icon></span>
+            </div>
+            <div class="cards" id="cardst">
+
+                
+
+                <article class="articulos" id="id1">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/alcohol1.svg" alt="">
+                        <p class="precio">S/ 9.50</p>
+                        <p class="description">Alcohol 96% frasco 1000ml.</p>
+                    </div>
+                </article>
+                <article class="articulos" id="id2">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/redoxon 1.svg" alt="">
+                        <p class="precio">S/ 39.00</p>
+                        <p class="description">Multivitamínico Redoxon Total - Caja 3 tubos 10 und</p>
+                    </div>
+                </article>
+                <article class="articulos" id="id3">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/alchol2.svg" alt="">
+                        <p class="precio">S/ 9.50</p>
+                        <p class="description">Alcohol 70% Frasco 1000 ml</p>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/gelalcohol.svg" alt="">
+                        <p class="precio">S/ 20.00</p>
+                        <p class="description">Alcohol Gel 70% Alkofarma - Frasco 1000 ML</p>
+                    </div>
+                </article>
+
+                <!-- demás -->
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/mask.svg" alt="">
+                        <p class="precio">S/ 13.00</p>
+                        <p class="description">Mascarilla 3 pliegues Celeste Caja 50 und</p>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/enjuage.svg" alt="">
+                        <p class="precio">S/ 14.90</p>
+                        <p class="description">Enjuague bucal dento zero alcohol menta glacial 500 ml</p>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/isopo1.svg" alt="">
+                        <p class="precio">S/ 16.00</p>
+                        <p class="description">Hisopos Tuinies - Pote 500 UN</p>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/isopo2.svg" alt="">
+                        <p class="precio">S/ 11.90</p>
+                        <p class="description">Hisopos Tuinies - Pote 350 UN</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+
+
+        <!-- PARA TU BEBE -->
+
+        <section class="content-section">
+            <h1 class="titulo">Todo para tu bebé</h1>
+            <div class="arrows">
+                <span id="izquierda2" class="izquierda"><ion-icon class="izq" name="arrow-back"></ion-icon></span>
+                <span id="derecha2" class="derecha"><ion-icon class="dere" name="arrow-forward"></ion-icon></span>
+            </div>
+            <div class="cards" id="cardst">
+
+                
+
+                <article class="articulos" id="id1">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/panal1.svg" alt="">
+                        <p class="precio">S/ 45.00</p>
+                        <p class="description">Pañal Babysec Premium Super Todas las tallas - Paquete 48 UN</p>
+                    </div>
+                </article>
+                <article class="articulos" id="id2">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/panal2.svg" alt="">
+                        <p class="precio">S/ 45.00</p>
+                        <p class="description">Pañales Huggies Active Sec  Talla XG - paquete 48 UN</p>
+                    </div>
+                </article>
+                <article class="articulos" id="id3">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/shapoo1.svg" alt="">
+                        <p class="precio">S/ 36.00</p>
+                        <p class="description">shampoo agu manzanilla mañanas felices</p>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/shampoo2.svg" alt="">
+                        <p class="precio">S/ 15.00</p>
+                        <p class="description">Shampoo Johnson's Baby Gotas De Brillo Frasco 200 ml</p>
+                    </div>
+                </article>
+
+                <!-- demás -->
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/panitos.svg" alt="">
+                        <p class="precio">S/ 8.00</p>
+                        <p class="description">Toallitas Húmedas Ninet Clásicas - Bolsa 100 UN</p>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/shampoo3.svg" alt="">
+                        <p class="precio">S/ 15.00</p>
+                        <p class="description">Shampoo Johnson's Baby NF Manzanilla Cabello Claro - Frasco 200 ML</p>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/shampoo4.svg" alt="">
+                        <p class="precio">S/ 27.00</p>
+                        <p class="description">Shampoo Dr. Zaidman Baby Manzanilla Frasco 750ml</p>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <p class="oferta">Oferta</p>
+                    <div class="articulo-cotent">
+                        <img src="img/bebecrema.svg" alt="">
+                        <p class="precio">S/ 27.00</p>
+                        <p class="description">Crema para Escaldadura Dr. Zaidman - Pote 50 G</p>
+                    </div>
+                </article>
+                
+
+            </div>
+
+        </section>
+        <br>
+        <br>
+
+
+    </main>
+
+
+
+
+
+
+    <div class="linea-a"></div>
+    <footer>
+        
+        <div class="pie-content">
+            <div class="card3" style="margin-right: 35px;"><img src="img/Group 20.svg" alt="">
+            <!-- <p class="text-pie1">Somos una empresa peruana especializada en el desarrollo de proyectos multidisciplinarios 
+                integrando arquitectura, ingeniería, construcción, supervisión y gerencia de proyectos.</p> -->
+            <img class="numero-wsp" src="img/numero-whatsapp.svg" alt="">    
+            </div>
+            
+            <div class="card3" style="width: 320px; margin-right: 35px;"><h4>Ubíquenos:</h4>
+                <p class="text-pie">De Lunes a Domingo 
+                    desde las 9:00 AM - 10:00 PM</p>
+                    <br>
+                <p class="text-pie">  Dirección: Av. Universitaria #. 7007 Urb. Santa Luzmila - Comas - Lima - Lima</p>
+                </div>
+
+            <div class="card3" style="width: 322px;"><h4>Contáctenos</h4> 
+                <div><p class="text-pie" > Cel.:(+51) 926 524 789</p></div>
+            </br>
+                <div><p class="text-pie" > E-mail: </p> </div>
+                <div> <a class="correos" href="mailto:ventas@linsafarma.com"> ventas@linsafarma.com</a></div>
+                <div> <a class="correos" href="mailto:informes@linsafarma.com"> informes@linsafarma.com</a></div>
+            </div> 
+            <div class="card3"><h4>Síguenos:</h4>
+                
+                <div class="redes-sociales-abajo" >
+                    <a target="_blank" href="https://www.facebook.com/"><img src="img/facebook.svg" alt=""></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img src="img/youtube.svg" alt=""></a>
+                    
+                </div>
+               
+            </div>
+
+
+        </div>
+        <div class="down">
+            <div class="container-down">
+                <div class="down-text1"><p>Políticas de privacidad</p><p>Términos y condiciones</p></div>
+                <p class="down-text2">© Copyright Linsafarma 2022</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./components/cabecera.js" type="module"></script>
+    <script src="./js/nav.js"></script>
+
+    <!-- slider cards -->
+    <script src="js/cards.js"></script>
+    
+    <!-- enlace de iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- script para BANNER -->
+    <script src="js/sliders.js"></script>
+
+</body>
+</html>

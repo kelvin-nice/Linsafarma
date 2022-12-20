@@ -1,0 +1,216 @@
+header{
+    background-color: #ffffff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px auto;
+    top: 0px;
+    position: sticky;
+    z-index: 999;
+    border-bottom: 0.3px solid #07957A;
+}
+
+header .container{
+    display: flex;
+    display: block;
+    justify-content: center;
+}
+#menu-logo{
+    color: white;
+    font-size: 30px;
+    background-color: #BF0811;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#menu-logo:hover{
+    background-color: #ff656d;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+.logo-menu{
+    justify-content: space-between;
+}
+
+.text-category{
+    color: white;
+    font-weight: 500;
+    margin-right: 120px;
+}
+
+
+
+
+
+
+/* Buscador y direccion mobil */
+
+.direccion-desktop{
+    display: none;
+}
+
+.buscador-desktop{
+    display: none;
+}
+
+
+/* mobil */
+
+.buscador-direccion{
+    width: 100%;
+    background-color: #07957A;
+    display: flex;
+    display: block;
+    justify-content: center;
+}
+.buscador-direccion {
+    display: block;
+}
+
+.buscador-mobil{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-content: center;
+}
+
+.conjunto-direccion{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+#text{
+    color: white;
+}
+.promociones-mobil{
+    text-decoration: none;
+    color: #f2ffc5;
+    border: 2px solid #f2ffc5;
+    padding: 13px 16px;
+    border-radius: 20px;
+}
+.promociones-mobil:hover{
+    color: #ffe063;
+    border: 2px solid #ffe063;
+}
+
+.icono-lugar{
+    color: white;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.direccion-mobil{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#buscador{
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 14px;
+    color: #c0c0c0;
+    border: 0px solid;
+    letter-spacing: 0.5px;
+}
+
+
+.logo-facebook{
+    font-size: 20px;
+    color: #00715c;
+    cursor: pointer;
+    
+}
+
+
+
+/* media query 900px */
+
+@media (min-width: 900px) {
+    
+    header{
+        position: initial;
+        height: 80px;
+    }
+    #menu-logo{
+        display: none;
+    }
+    .buscador-direccion{
+        display: none;
+    }
+    .buscador-desktop{
+        position: static;
+        width: 400px;
+        display: none;
+        display: flex;
+        position: absolute;
+        top: 10px;
+        justify-content: center;
+        margin-left: 260px;
+    }
+    #buscar{
+        width: 360px;
+    padding: 13px;
+    padding-left: 20px;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 14px;
+    color: #c0c0c0;
+    border: 1px solid #878787;
+    letter-spacing: 0.5px;
+    }
+    .lupa{
+        width: 30px;
+        color: #ffffff;
+        background-color: #da4c53;
+        padding: 5px 7px;
+        border-radius: 25px;
+        position: absolute;
+        margin-top: 4px;
+        margin-left: 340px;
+    }
+    .direccion-desktop{
+        display: block;
+        position: absolute;
+        top: 7px;
+        margin-left: 60%;
+        
+    }
+    #text{
+        color: #005140;
+        width: 200px;
+        margin-left: 7px;
+    }
+    .dentro{
+        display: flex;
+        align-items: center;
+    }
+    .ico-direcc{
+        font-size: 30px;
+        
+    }
+}
+
+@media (max-width: 1120px){
+    .direccion-desktop{
+        margin-left: 65%;
+        
+    }
+    
+}
+@media (max-width: 1050px){
+    .direccion-desktop{
+       display: none;
+        
+    }
+}

@@ -1,0 +1,32 @@
+<html>
+    <template id="template" >
+
+        <div class="container" >
+            <img src="" alt="">
+            <form action="">
+                <input type="text" placeholder="Buscar por nombre y marca">
+            </form>
+            <div>
+                <img src="img/icono-adress.png" alt="">
+                <p>Av. Universitaria Nro. 7007 Urb. Santa Luzmila - Comas - Lima - Lima</p>
+            </div>
+        </div>
+    </template>
+    <script>
+        class cabeceraTem extends HTMLElement{
+            constructor(){
+                super();
+                this.importDocument = document.currentScript.ownerDocument;
+            }
+
+            connectedCallback(){
+                let shadowRoot = this.attachShadow({ mode:"open"});
+                const t = this.importDocument.querySelector('#template');
+                const instance = t.content.cloneNode(true);
+                shadowRoot.appendChild(instance);
+            }
+        }
+
+        window.customElements.define('cabecera-tem', cabeceraTem)
+    </script>
+</html>

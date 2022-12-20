@@ -1,0 +1,30 @@
+.flechas-slider{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+    
+    
+}
+#izquierda3, #derecha3{
+    display: flex;
+    
+    
+}
+#izquierda3 .izq,
+#derecha3 .dere{
+    
+    position: absolute;
+    display: flex;
+    top: 55%;
+    cursor: pointer;
+}
+
+#izquierda3{
+    margin-left: 20px;
+}
+#derecha3{
+    
+    margin-right: 40px;
+}

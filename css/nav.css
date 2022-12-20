@@ -1,0 +1,236 @@
+
+#menu{
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    width: 85%;
+    height: 100vh;
+    background-color: rgb(254, 255, 255);
+    list-style: none;
+    display: inline-block;
+    transition: 0.5s ease; 
+    position: fixed;
+}
+
+.active{
+    transform: translateX(-100%);
+}
+
+#menu ul{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    border-top: 1px solid #03b897;
+
+}
+#menu li{
+    display: block;
+    width: 100%;
+}
+
+
+#menu a{
+    text-decoration: none;
+    color: #00715c;
+    font-size: 15px;
+    display: block;
+    padding: 20px;
+    font-weight: 700;
+    
+}
+
+#menu a:hover{
+    background-color: #dbfff8;
+}
+
+#menu .menu-mobil{
+    margin: 15px 0px 20px 20px ;
+}
+
+.text-category{
+    display: block;
+}
+
+/* MENU MOBIL PARA CERRAR */
+
+#menu-logo-cerrar{
+    color: white;
+    font-size: 30px;
+    background-color: #BF0811;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+
+#menu-logo-cerrar:hover{
+    background-color: #ff656d;
+}
+#menu-categoria{
+    display: none;
+}
+
+@media (min-width: 900px) {
+    #menu{
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    height: 80px;
+    background-color: #07957A;
+    list-style: none;
+    transition: 0s ease;
+    display: flex;
+    transform: translateX(0%);
+    }
+    .menu-mobil{
+        display: none;
+    }
+
+    #menu ul{
+        margin: 0;
+        padding: 0px;
+        border-top: 0px solid;
+        display: flex;
+        width: 95%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+    #menu li{
+        width: 150px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    
+    #menu a{
+        text-align: center;
+        
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+        padding: 0px;
+        font-weight: 300;
+        letter-spacing: 0.4px;
+        
+    }
+    #menu a:hover{
+        background-color: #dbfff800;
+        color: #03b897;
+    }
+    .active{
+        display: none;
+    }
+    .promociones{
+        color: #FFCE00 !important;
+        font-weight: 600 !important;
+        padding: 10px 15px !important;
+        border: 2px solid #FFCE00 !important;
+        border-radius: 40px !important;
+    }
+    .promociones:hover{
+        color: #ffe371 !important;
+        border: 2px solid #ffe371 !important;
+    }
+    #menu-categoria{
+        color: white;
+        font-size: 30px;
+        background-color: #BF0811;
+        padding: 5px;
+        border-radius: 50px;
+        cursor: pointer;
+        display: block;
+    }
+    #menu-categoria:hover{
+        background-color: #ff656d;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* CATEGORIAS ESCRITORIO */
+
+#menu3{
+    position: absolute;
+    z-index: 700;
+    top: 148px;
+    width: 400px;
+    height: auto;
+    background-color: rgba(254, 255, 255, 0.914);
+    list-style: none;
+    display: inline-block;
+    transition: 0.5s ease; 
+    
+}
+
+
+.active2{
+    transform: translateX(-100%);
+}
+
+#menu3 ul{
+    display: block;
+    margin: 0;
+    border-top: 1px solid #03b897;
+
+}
+#menu3 li{
+    display: block;
+    margin-left: 40px;
+}
+
+
+#menu3 a{
+    text-decoration: none;
+    color: #00715c;
+    font-size: 15px;
+    display: block;
+    padding: 20px;
+    font-weight: 700;
+    border-bottom: 0.5px solid #15947f5b;
+}
+
+#menu3 a:hover{
+    color: #00342a;
+}
+
+#menu3 .menu-mobil{
+    margin: 15px 0px 20px 20px ;
+}
+
+.text-category{
+    display: block;
+}
+
+/* MENU MOBIL PARA CERRAR */
+
+#menu3-logo-cerrar{
+    color: white;
+    font-size: 30px;
+    background-color: #BF0811;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+
+#menu3-logo-cerrar:hover{
+    background-color: #ff656d;
+}
+#menu3-categoria{
+    display: none;
+}

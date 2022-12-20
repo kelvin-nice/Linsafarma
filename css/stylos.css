@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url(nav.css);
+@import url(header.css);
+@import url(products-home.css);
+@import url(footer.css);
+@import url(flechas-slider.css);
+
+body{
+    font-family: 'Roboto';
+    word-spacing: 1px;
+    z-index: 999;
+    background-color: rgb(227, 227, 227);
+}
+.container{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+p{
+    margin: 0;
+    font-size: 12px;
+}
+a{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.container-banner{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

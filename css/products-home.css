@@ -1,0 +1,136 @@
+.content-section{
+    margin-top: 45px;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    width: 1100px;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cards{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    
+    
+    /* flex-wrap: wrap; */
+}
+.cards::-webkit-scrollbar{
+    visibility: hidden;
+}
+.articulos{
+    background-color: white;
+    min-width: 242px;
+    margin-right: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.articulos img{
+    height: 110px;
+}
+
+.articulos:hover{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.articulo-cotent{
+    padding: 30px;
+    display: block;
+    height: 200px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+}
+.oferta{
+    color: rgb(255, 255, 255);
+    background-color: #BF0811;
+    width: 40px;
+    padding: 10px 8px 10px 15px;
+    border-radius: 15px 0px 15px 0px;
+}
+.precio{
+    color: #BF0811;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.description{
+    margin-bottom: 8px;
+}
+
+
+.arrows span{
+    padding: 10px 10px 6px 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.arrows{
+    margin-bottom: 20px;
+    width: 100px;
+    margin-left: auto;
+}
+.izq, .dere{
+    margin: 0px;
+}
+.izquierda:hover{
+    background-color: #BF0811;
+    color: #ffffff;
+}
+.derecha:hover{
+    background-color: #BF0811;
+    color: #ffffff;
+}
+
+
+.izquierda2:hover{
+    background-color: #BF0811;
+    color: #ffffff;
+}
+.derecha2:hover{
+    background-color: #BF0811;
+    color: #ffffff;
+}
+
+
+@media (max-width: 1020px){
+    .articulos{
+        margin-left: 8px;
+    margin-right: 8px;
+        
+    }
+}
+
+@media (max-width: 520px){
+    .izquierda{
+        display: none;
+    }
+    .derecha{
+        display: none;
+    }
+    .articulos{
+        background-color: white;
+        min-width: 180px;
+        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        
+        
+        
+    }
+}
